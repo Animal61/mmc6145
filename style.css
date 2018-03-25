@@ -1,0 +1,127 @@
+/*
+Theme Name: project-smith-theme
+Theme URI: 
+Author: Steven Smith
+Description: Theme for Pitts BBQ
+Version: 0.1
+License: Open
+Text Domain: project_smith_theme
+*/
+
+@import url("stylesheets/normalize.css");
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    background: lightgray;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+ul#menu-top li,
+ul#menu-footer-menu li {
+    display: inline;
+    padding: 0 15px;
+}
+
+ul#menu-top li a,
+ul#menu-footer-menu li a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+ul#menu-top li a:hover,
+ul#menu-footer-menu li a:hover {
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+nav {
+  width: 74%;
+  display: inline-block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+
+li#menu-item-54:hover .sub-menu {
+  display: block;
+}
+
+ul.sub-menu li {
+  display: block !important;
+  margin: 25px 0 0 180px;
+}
+
+.site-name {
+  width: 25%;
+  display: inline-block;
+}
+
+#comments {
+  background: #e1e1e1;
+  padding: 15px;
+  border-radius: 15px;
+  width: 70%;
+  margin: 15px auto;
+}
+
+.about-us-home {
+  text-align: center;
+  padding: 70px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.left-block,
+.middle-block,
+.right-block {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Footer Stylyings */
+#footer-sidebar {
+	clear: both;
+	display: block;
+	width: 90%;
+	margin: 0 5%;
+}
+
+#left-footer, #right-footer {
+  width: 45%;
+  display: inline-block;
+  align-content: middle-block;
+}
+
+#left-footer ul, #right-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+#left-footer li, #right-footer li {
+  display: inline;
+  padding: 0 10px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 45px;
+}
